@@ -1,0 +1,82 @@
+C:\Users\rober\Desktop\ZeroWaste\ZeroWaste\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\rober\Desktop\ZeroWaste\ZeroWaste\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\rober\Desktop\ZeroWaste\ZeroWaste\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\rober\Desktop\ZeroWaste\ZeroWaste\bin\Debug\netcoreapp2.1\Properties\serviceDependencies.json
+C:\Users\rober\Desktop\ZeroWaste\ZeroWaste\bin\Debug\netcoreapp2.1\Properties\serviceDependencies.local.json
+C:\Users\rober\Desktop\ZeroWaste\ZeroWaste\bin\Debug\netcoreapp2.1\ZeroWaste.deps.json
+C:\Users\rober\Desktop\ZeroWaste\ZeroWaste\bin\Debug\netcoreapp2.1\ZeroWaste.runtimeconfig.json
+C:\Users\rober\Desktop\ZeroWaste\ZeroWaste\bin\Debug\netcoreapp2.1\ZeroWaste.runtimeconfig.dev.json
+C:\Users\rober\Desktop\ZeroWaste\ZeroWaste\bin\Debug\netcoreapp2.1\ZeroWaste.dll
+C:\Users\rober\Desktop\ZeroWaste\ZeroWaste\bin\Debug\netcoreapp2.1\ZeroWaste.pdb
+C:\Users\rober\Desktop\ZeroWaste\ZeroWaste\bin\Debug\netcoreapp2.1\ZeroWaste.Views.dll
+C:\Users\rober\Desktop\ZeroWaste\ZeroWaste\bin\Debug\netcoreapp2.1\ZeroWaste.Views.pdb
+C:\Users\rober\Desktop\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\ZeroWaste.csprojAssemblyReference.cache
+C:\Users\rober\Desktop\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\ZeroWaste.AssemblyInfoInputs.cache
+C:\Users\rober\Desktop\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\ZeroWaste.AssemblyInfo.cs
+C:\Users\rober\Desktop\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\ZeroWaste.csproj.CoreCompileInputs.cache
+C:\Users\rober\Desktop\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\ZeroWaste.RazorAssemblyInfo.cache
+C:\Users\rober\Desktop\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\ZeroWaste.RazorAssemblyInfo.cs
+C:\Users\rober\Desktop\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\rober\Desktop\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\ZeroWaste.TagHelpers.input.cache
+C:\Users\rober\Desktop\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\ZeroWaste.TagHelpers.output.cache
+C:\Users\rober\Desktop\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\ZeroWaste.RazorCoreGenerate.cache
+C:\Users\rober\Desktop\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\rober\Desktop\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\rober\Desktop\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
+C:\Users\rober\Desktop\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\rober\Desktop\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\rober\Desktop\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\rober\Desktop\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\rober\Desktop\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\rober\Desktop\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\rober\Desktop\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\rober\Desktop\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\rober\Desktop\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\rober\Desktop\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\ZeroWaste.RazorTargetAssemblyInfo.cache
+C:\Users\rober\Desktop\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\ZeroWaste.RazorTargetAssemblyInfo.cs
+C:\Users\rober\Desktop\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\ZeroWaste.Views.pdb
+C:\Users\rober\Desktop\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\ZeroWaste.dll
+C:\Users\rober\Desktop\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\ZeroWaste.pdb
+C:\Users\rober\Desktop\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\ZeroWaste.genruntimeconfig.cache
+C:\Users\rober\Desktop\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\ZeroWaste.csproj.CopyComplete
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\bin\Debug\netcoreapp2.1\appsettings.Development.json
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\bin\Debug\netcoreapp2.1\appsettings.json
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\bin\Debug\netcoreapp2.1\Properties\launchSettings.json
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\bin\Debug\netcoreapp2.1\Properties\serviceDependencies.json
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\bin\Debug\netcoreapp2.1\Properties\serviceDependencies.local.json
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\bin\Debug\netcoreapp2.1\ZeroWaste.deps.json
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\bin\Debug\netcoreapp2.1\ZeroWaste.runtimeconfig.json
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\bin\Debug\netcoreapp2.1\ZeroWaste.runtimeconfig.dev.json
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\bin\Debug\netcoreapp2.1\ZeroWaste.dll
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\bin\Debug\netcoreapp2.1\ZeroWaste.pdb
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\bin\Debug\netcoreapp2.1\ZeroWaste.Views.dll
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\bin\Debug\netcoreapp2.1\ZeroWaste.Views.pdb
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\ZeroWaste.csprojAssemblyReference.cache
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\ZeroWaste.AssemblyInfoInputs.cache
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\ZeroWaste.AssemblyInfo.cs
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\ZeroWaste.csproj.CoreCompileInputs.cache
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\ZeroWaste.RazorAssemblyInfo.cache
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\ZeroWaste.RazorAssemblyInfo.cs
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\ZeroWaste.TagHelpers.input.cache
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\ZeroWaste.TagHelpers.output.cache
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\ZeroWaste.RazorCoreGenerate.cache
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.cshtml.g.cs
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.cshtml.g.cs
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\ZeroWaste.RazorTargetAssemblyInfo.cache
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\ZeroWaste.RazorTargetAssemblyInfo.cs
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\ZeroWaste.Views.pdb
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\ZeroWaste.dll
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\ZeroWaste.pdb
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\ZeroWaste.genruntimeconfig.cache
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\ZeroWaste.csproj.CopyComplete
