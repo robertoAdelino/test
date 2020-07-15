@@ -91,3 +91,8 @@ C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Ra
 C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Views\ProdutosSupermercados\Details.cshtml.g.cs
 C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Views\ProdutosSupermercados\Edit.cshtml.g.cs
 C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Views\ProdutosSupermercados\Index.cshtml.g.cs
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Views\RefeicoesRestaurantes\Create.cshtml.g.cs
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Views\RefeicoesRestaurantes\Delete.cshtml.g.cs
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Views\RefeicoesRestaurantes\Details.cshtml.g.cs
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Views\RefeicoesRestaurantes\Edit.cshtml.g.cs
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Views\RefeicoesRestaurantes\Index.cshtml.g.cs
