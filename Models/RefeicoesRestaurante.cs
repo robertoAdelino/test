@@ -8,7 +8,7 @@ namespace ZeroWaste.Models
 {
     public class RefeicoesRestaurante
     {
-
+        [Key]
         public int IDRefeicoesRestaurante { get; set; }
 
 

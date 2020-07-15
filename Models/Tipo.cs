@@ -8,6 +8,7 @@ namespace ZeroWaste.Models
 {
     public class Tipo
     {
+        [Key]
         public int IDTipo { get; set; }
 
         [Required(ErrorMessage = "Por favor insira o nome")]

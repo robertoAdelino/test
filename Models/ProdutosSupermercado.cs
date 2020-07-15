@@ -6,6 +6,7 @@ namespace ZeroWaste.Models
 {
     public class ProdutosSupermercado
     {
+        [Key]
         public int IDProdutosSupermercado { get; set; }
 
 

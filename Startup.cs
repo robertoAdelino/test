@@ -43,7 +43,7 @@ namespace ZeroWaste
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddDbContext<ZeroDbContext>(options =>
-                   options.UseSqlServer(Configuration.GetConnectionString("ZeroDbCotext")));
+                   options.UseSqlServer(Configuration.GetConnectionString("ZeroDbContext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

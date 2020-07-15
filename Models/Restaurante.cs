@@ -9,6 +9,7 @@ namespace ZeroWaste.Models
     public class Restaurante
     {
 
+        [Key]
         public int IDRestaurante { get; set; }
 
 

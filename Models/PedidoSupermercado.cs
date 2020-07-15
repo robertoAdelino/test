@@ -8,6 +8,7 @@ namespace ZeroWaste.Models
 {
     public class PedidoSupermercado
     {
+        [Key]
         public int IDPedidoSupermercado { get; set; }
 
         [Required(ErrorMessage = "Por favor introduza a Quantidade.")]

@@ -8,6 +8,7 @@ namespace ZeroWaste.Models
 {
     public class Regras
     {
+        [Key]
         public int RegrasID { get; set; }
 
         [Required(ErrorMessage = "Dê um nome à regra.")]
