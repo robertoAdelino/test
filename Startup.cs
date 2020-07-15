@@ -12,6 +12,7 @@ using Microsoft.EntityFrameworkCore;
 using ZeroWaste.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+using ZeroWaste.Models;
 
 namespace ZeroWaste
 {
@@ -41,6 +42,8 @@ namespace ZeroWaste
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            services.AddDbContext<ZeroDbContext>(options =>
+                   options.UseSqlServer(Configuration.GetConnectionString("ZeroDbCotext")));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
