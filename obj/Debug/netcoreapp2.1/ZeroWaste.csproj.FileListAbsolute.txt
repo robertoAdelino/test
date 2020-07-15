@@ -86,3 +86,8 @@ C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Ra
 C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Views\Tipos\Details.cshtml.g.cs
 C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Views\Tipos\Edit.cshtml.g.cs
 C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Views\Tipos\Index.cshtml.g.cs
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Views\ProdutosSupermercados\Create.cshtml.g.cs
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Views\ProdutosSupermercados\Delete.cshtml.g.cs
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Views\ProdutosSupermercados\Details.cshtml.g.cs
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Views\ProdutosSupermercados\Edit.cshtml.g.cs
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Views\ProdutosSupermercados\Index.cshtml.g.cs
