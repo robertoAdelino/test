@@ -54,6 +54,11 @@ namespace ZeroWaste.Areas.Identity.Pages.Account
             [Display(Name = "Confirmar password")]
             [Compare("Password", ErrorMessage = "As passwords não coincidem.")]
             public string ConfirmPassword { get; set; }
+            
+
+            public string Morada { get; set; }
+           
+            public int Tipo { get; set; }
         }
 
         public void OnGet(string returnUrl = null)
@@ -66,7 +71,10 @@ namespace ZeroWaste.Areas.Identity.Pages.Account
             returnUrl = returnUrl ?? Url.Content("~/");
             if (ModelState.IsValid)
             {
-                var user = new IdentityUser { UserName = Input.Email, Email = Input.Email };
+                var user = new IdentityUser { UserName = Input.Email, 
+                    Email = Input.Email,
+                   // Morada = Input.Morada
+                };
                 var result = await _userManager.CreateAsync(user, Input.Password);
                 if (result.Succeeded)
                 {

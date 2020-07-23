@@ -12,6 +12,18 @@
             <h4>Crie uma conta.</h4>
             <hr />
             <div asp-validation-summary="All" class="text-danger"></div>
+            <div>
+                <select class="input-sm" style="">
+                    <option value="0" style="color:#ccc !important;">
+                       Por favor Selecione que tipo de utilizador é:
+                    </option>
+                    <option value="1">Família</option>
+                    <option value="2">Instituição</option>
+                    <option value="3">Restaurante</option>
+                    <option value="4">Supermercado</option>
+                    <option value="5">Voluntário</option>
+                </select>
+            </div>
             <div class="form-group">
                 <label asp-for="Input.Email"></label>
                 <input asp-for="Input.Email" class="form-control" />
@@ -27,8 +39,16 @@
                 <input asp-for="Input.ConfirmPassword" class="form-control" />
                 <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
             </div>
+            <div class="form-group">
+                <label asp-for="Input.Morada"></label>
+                <input asp-for="Input.Morada" class="form-control" />
+                <span asp-validation-for="Input.Morada" class="text-danger"></span>
+            </div>
+
+
             <button type="submit" class="btn btn-default">Registar</button>
         </form>
+ 
     </div>
 </div>
 

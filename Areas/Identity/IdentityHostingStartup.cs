@@ -19,8 +19,9 @@ namespace ZeroWaste.Areas.Identity
                     options.UseSqlServer(
                         context.Configuration.GetConnectionString("ZeroWasteContextConnection")));
 
-                services.AddDefaultIdentity<IdentityUser>()
-                    .AddEntityFrameworkStores<ZeroWasteContext>();
+            //    services.AddDefaultIdentity<IdentityUser>()
+            //        .AddEntityFrameworkStores<ZeroWasteContext>();
+              
             });
         }
     }

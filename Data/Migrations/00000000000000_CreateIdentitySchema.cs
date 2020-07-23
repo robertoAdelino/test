@@ -41,6 +41,7 @@ namespace ZeroWaste.Data.Migrations
                     LockoutEnd = table.Column<DateTimeOffset>(nullable: true),
                     LockoutEnabled = table.Column<bool>(nullable: false),
                     AccessFailedCount = table.Column<int>(nullable: false)
+                    
                 },
                 constraints: table =>
                 {
