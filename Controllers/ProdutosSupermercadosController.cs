@@ -11,6 +11,7 @@ namespace ZeroWaste.Controllers
 {
     public class ProdutosSupermercadosController : Controller
     {
+        private const int PAGE_SIZE = 5;
         private readonly ZeroDbContext _context;
 
         public ProdutosSupermercadosController(ZeroDbContext context)
@@ -19,10 +20,91 @@ namespace ZeroWaste.Controllers
         }
 
         // GET: ProdutosSupermercados
-        public async Task<IActionResult> Index()
+        public async Task<IActionResult> Index(ListaProdutosSupViewModel model = null, 
+            int page = 1, string nome = null, string supermercado = null)
         {
-            var zeroDbContext = _context.ProdutosSupermercado.Include(p => p.Supermercado).Include(p => p.Tipo);
-            return View(await zeroDbContext.ToListAsync());
+            if (model != null && model.CurrentSupermercado != null || model.CurrentNome != null)
+            {
+                nome = model.CurrentNome;
+                supermercado = model.CurrentSupermercado;
+                page = 1;
+            }
+
+            IQueryable<ProdutosSupermercado> produtosupermercado;
+            int numProdutosSupermercado;
+            IEnumerable<ProdutosSupermercado> listaProdutos;
+
+            if (!string.IsNullOrEmpty(nome) && string.IsNullOrEmpty(supermercado)) //Pesquisa por nome
+            {
+                produtosupermercado = _context.ProdutosSupermercado
+                    .Where(e => e.Nome.Contains(nome.Trim()));
+
+                numProdutosSupermercado = await produtosupermercado.CountAsync();
+
+                listaProdutos = await produtosupermercado
+                    .Include(e => e.Supermercado)
+                    .OrderBy(e => e.Nome)
+                    .Skip(PAGE_SIZE * (page - 1))
+                    .Take(PAGE_SIZE)
+                    .ToListAsync();
+            }
+            else if (!string.IsNullOrEmpty(supermercado) && string.IsNullOrEmpty(nome)) //Pesquisa por especialidade
+            {
+                produtosupermercado = _context.ProdutosSupermercado
+                  .Where(e => e.Supermercado.Nome.Contains(supermercado.Trim()));
+
+                numProdutosSupermercado = await produtosupermercado.CountAsync();
+
+                listaProdutos = await produtosupermercado
+                    .Include(e => e.Supermercado)
+                    .OrderBy(e => e.Nome)
+                    .Skip(PAGE_SIZE * (page - 1))
+                    .Take(PAGE_SIZE)
+                    .ToListAsync();
+            }
+            else
+            {
+
+                produtosupermercado = _context.ProdutosSupermercado;
+
+                numProdutosSupermercado = await produtosupermercado.CountAsync();
+
+                listaProdutos = await produtosupermercado
+                    .Include(e => e.Supermercado)
+                    .OrderBy(e => e.Nome)
+                    .Skip(PAGE_SIZE * (page - 1))
+                    .Take(PAGE_SIZE)
+                    .ToListAsync();
+            }
+
+
+            if (page > (numProdutosSupermercado / PAGE_SIZE) + 1)
+            {
+                page = 1;
+            }
+
+           
+            if (listaProdutos.Count() == 0)
+            {
+                TempData["NoItemsFound"] = "Não foram encontrados resultados para a sua pesquisa";
+            }
+
+            return View(
+                new ListaProdutosSupViewModel
+                {
+                    ProdutosSupermercados = listaProdutos,
+                    Pagination = new PagingViewModel
+                    {
+                        CurrentPage = page,
+                        PageSize = PAGE_SIZE,
+                        TotalItems = numProdutosSupermercado,
+                        Nome = nome,
+                        Supermercado = supermercado
+                    },
+                    CurrentNome = nome,
+                    CurrentSupermercado = supermercado
+                }
+            );
         }
 
         // GET: ProdutosSupermercados/Details/5

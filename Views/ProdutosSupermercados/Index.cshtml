@@ -1,53 +1,192 @@
-﻿@model IEnumerable<ZeroWaste.Models.ProdutosSupermercado>
+﻿@*@model IEnumerable<EscalonamentoHospitalar.Models.Enfermeiro>*@
+@model ListaProdutosSupViewModel
 
-@{
-    ViewData["Title"] = "Index";
-}
+@{ ViewData["Title"] = "Lista de Produtos de Supermercado"; }
+<p></p>
 
-<h2>Index</h2>
+@if (TempData["notice"] != null)
+{<!--Mensagem de sucesso quandi insere -->
+                    <div id="suc_form" class="alert alert-success">
+                        <strong>Sucesso!</strong> O registo foi inserido com sucesso.
+                    </div>}
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
+@if (TempData["deleteEnf"] != null)
+{<!--Mensagem de sucesso quando elimina -->
+                    <div id="suc_form" class="alert alert-success">
+                        <strong>Sucesso!</strong> Enfermeiro eliminado com sucesso.
+                    </div>}
+
+@if (TempData["successEdit"] != null)
+{<!--Mensagem de sucesso quando edita -->
+                    <div id="suc_form" class="alert alert-success">
+                        <strong>Sucesso!</strong> O registo foi alterado com sucesso.
+                    </div>}
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+    //Passados 5 segundos a mensagem desaparece
+    $(document).ready(function () {
+        $("#suc_form").hide(10000);
+    });
+
+    //Select the appropriate input text to search by name or speciality
+    function searchBy() {
+        var selectOption = document.getElementById("inputGroupSelect01");
+        var selectedValue = selectOption.options[selectOption.selectedIndex].value;
+        if (selectedValue == "Supermercado") {
+            //get name and speciality inputs
+            var form = document.getElementById("inputSupermercado");
+            var form2 = document.getElementById("inputName");
+            //show speciality input
+            if (form.style.display == 'none') {
+                form.style.display = 'inline';
+            }
+            //hide name input
+            if (form2.style.display == 'inline') {
+                form2.style.display = 'none';
+                form2.value = '';
+            }
+        }
+        else //Selected value = NOME
+        {
+            //get name and speciality inputs
+            var form = document.getElementById("inputSupermercado");
+            var form2 = document.getElementById("inputName");
+            //hide speciality input
+            if (form.style.display == 'inline') {
+                form.style.display = 'none';
+                form.value = '';
+            }
+            //show name input
+            if (form2.style.display == 'none') {
+                form2.style.display = 'inline';
+            }
+        }
+    }
+
+    //Delete the speciality input field when the user clicks on name input
+    function deleteSpecialityField() {
+        var form = document.getElementById("inputSupermercado");
+        form.value = '';
+    }</script>
+
+<h2>Lista de Produtos</h2>
+
+<form asp-action="Index">
+    Pesquisar por:
+    <select class="input-group-prepend" id="inputGroupSelect01" onchange="searchBy()">
+        <option selected value="Nome">Nome</option>
+        <option value="Supermercado">Supermercado</option>
+    </select>
+    <input id="inputName" style="width: 200px; display: inline;" asp-for="CurrentNome"
+           placeholder="Insira o nome a pesquisar" onclick="deleteSpecialityField()">
+    <input id="inputSupermercado" style="width: 250px; display: none;" asp-for="CurrentSupermercado"
+           placeholder="Insira o supermercado a pesquisar">
+    <button class="btn btn-info" type="submit" value="Pesquisar"><span class="glyphicon glyphicon-search"></span> Pesquisar</button>
+</form>
+
+<p></p>
+
+<!--<div style="background-color:#17A5D4; padding: 30px; border-radius: 25px;">-->
+
 <table class="table">
     <thead>
         <tr>
             <th>
-                @Html.DisplayNameFor(model => model.Nome)
+                Número Mecanográfico
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Quantidade)
+                Nome
             </th>
             <th>
-                @Html.DisplayNameFor(model => model.Supermercado)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Tipo)
+                Supermercado
             </th>
             <th></th>
         </tr>
     </thead>
     <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Nome)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Quantidade)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Supermercado.Email)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Tipo.Nome)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.IDProdutosSupermercado">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.IDProdutosSupermercado">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.IDProdutosSupermercado">Delete</a>
-            </td>
-        </tr>
+        @foreach (var item in Model.ProdutosSupermercados)
+        {
+<tr>
+    <td>
+        @Html.DisplayFor(modelItem => item.Nome)
+    </td>
+
+    <td>
+        @Html.DisplayFor(modelItem => item.Tipo)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Quantidade)
+    </td>
+    <td>
+        @Html.DisplayFor(modelItem => item.Supermercado.Nome)
+    </td>
+    <td>
+        <a asp-action="Edit" asp-route-id="@item.IDProdutosSupermercado">
+            <input type="button" value="Alterar" class="btn btn-warning" />
+        </a>
+        <a asp-action="Details" asp-route-id="@item.IDProdutosSupermercado">
+            <input type="button" value="Detalhes" class="btn btn-info" />
+        </a>
+        <a asp-action="Delete" asp-route-id="@item.IDProdutosSupermercado">
+            <input type="button" value="Eliminar" class="btn btn-danger" />
+        </a>
+    </td>
+</tr>
 }
     </tbody>
 </table>
+
+@if (TempData["NoItemsFound"] != null)
+{
+<script>
+    //Show #myModal when there aren't records founded of search by name or speciality
+    $(document).ready(function () {
+        $("#myModal").modal();
+    });</script>
+ <!-- Modal -->
+                <div class="modal fade" id="myModal" role="dialog">
+                    <div class="modal-dialog">
+
+                        <!-- Modal content-->
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="modal-title" style="color:dodgerblue;"><strong>Ops!</strong></h4>
+                            </div>
+                            <div class="modal-body">
+                                <p> Não foram encontrados resultados para a sua pesquisa :(</p>
+                            </div>
+                            <div class="modal-footer">
+                                <a asp-action="Index"><input type="hidden" /><input type="button" class="btn btn-default" value="Ok" /></a>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                }
+
+<div page-model="@Model.Pagination"
+     page-action="Index"
+     page-classes-enabled="true"
+     page-class="btn"
+     page-class-normal="btn-default"
+     page-class-selected="btn-primary"
+     class="btn-group pull-right">
+</div>
+
+<br />
+<hr />
+<p>
+    <a asp-action="Create"><input type="button" value="Inserir Novo Produto de Supermercado" class="btn btn-primary" /></a>
+</p>
+<hr />
+
+@*
+    <div>
+        <a href='@Url.Action("GestaoHospitalar", "DiretorServico")'>
+            <input type="button" class="btn btn-default" value="Voltar à página inicial" />
+        </a>
+    </div>
+*@

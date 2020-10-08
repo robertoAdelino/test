@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using ZeroWaste.Models;
 
 namespace ZeroWaste.Areas.Identity.Pages.Account.Manage
 {
@@ -44,8 +45,11 @@ namespace ZeroWaste.Areas.Identity.Pages.Account.Manage
             public string Email { get; set; }
 
             [Phone]
-            [Display(Name = "Phone number")]
+            [Display(Name = "Contacto")]
             public string PhoneNumber { get; set; }
+
+           // public Familias Rendimento { get; set; }
+
         }
 
         public async Task<IActionResult> OnGetAsync()
@@ -109,7 +113,7 @@ namespace ZeroWaste.Areas.Identity.Pages.Account.Manage
             }
 
             await _signInManager.RefreshSignInAsync(user);
-            StatusMessage = "Your profile has been updated";
+            StatusMessage = "O seu perfil foi atualizado";
             return RedirectToPage();
         }
 
@@ -137,10 +141,10 @@ namespace ZeroWaste.Areas.Identity.Pages.Account.Manage
                 protocol: Request.Scheme);
             await _emailSender.SendEmailAsync(
                 email,
-                "Confirm your email",
-                $"Please confirm your account by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
+                "Confirme o seu email",
+                $"Por favor confirme a sua conta <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicando aqui</a>.");
 
-            StatusMessage = "Verification email sent. Please check your email.";
+            StatusMessage = "Email de verificação enviado. Consule o seu email.";
             return RedirectToPage();
         }
     }

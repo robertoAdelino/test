@@ -13,13 +13,13 @@ namespace ZeroWaste.Areas.Identity.Pages
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
-#line 3 "C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\Areas\Identity\Pages\_ViewImports.cshtml"
-using Microsoft.AspNetCore.Identity;
+#line 2 "C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\Areas\Identity\Pages\_ViewImports.cshtml"
+using ZeroWaste.Areas.Identity;
 
 #line default
 #line hidden
-#line 2 "C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\Areas\Identity\Pages\_ViewImports.cshtml"
-using ZeroWaste.Areas.Identity;
+#line 3 "C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\Areas\Identity\Pages\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
 
 #line default
 #line hidden
@@ -65,12 +65,12 @@ using ZeroWaste.Areas.Identity;
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
             BeginContext(0, 242, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "58366bfbebd74ef5b2012885a6d2cde3", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cc701c74526a50864c63e5c7b74df3b62d9eb0fc8525", async() => {
                 BeginContext(35, 6, true);
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(41, 80, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c69b0ba2a964499b99195e3d96ab34e0", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cc701c74526a50864c63e5c7b74df3b62d9eb0fc8915", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -88,7 +88,7 @@ using ZeroWaste.Areas.Identity;
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(127, 99, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5cf47e70347b4fd5aae51ba0e74eb5a3", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cc701c74526a50864c63e5c7b74df3b62d9eb0fc10168", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -123,12 +123,12 @@ using ZeroWaste.Areas.Identity;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(244, 962, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c51faf08d5b84bbda4dc87f72a2acf1a", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("environment", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cc701c74526a50864c63e5c7b74df3b62d9eb0fc12429", async() => {
                 BeginContext(279, 6, true);
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(285, 408, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "458b1677eb4a45f99cd84bc84558282c", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cc701c74526a50864c63e5c7b74df3b62d9eb0fc12823", async() => {
                     BeginContext(678, 6, true);
                     WriteLiteral("\r\n    ");
                     EndContext();
@@ -156,7 +156,7 @@ using ZeroWaste.Areas.Identity;
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(699, 491, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f5f086f5bf44467487f8ce2475e91715", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "cc701c74526a50864c63e5c7b74df3b62d9eb0fc14905", async() => {
                     BeginContext(1175, 6, true);
                     WriteLiteral("\r\n    ");
                     EndContext();

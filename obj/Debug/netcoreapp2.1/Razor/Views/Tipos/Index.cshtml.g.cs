@@ -24,7 +24,7 @@ using ZeroWaste.Models;
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"50a43537cb5260f5816110e55f010c5b1fdde847", @"/Views/Tipos/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"063a56890a38ccac65026f3adc083f89ed0cdfc7", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4aab3ecfa75852a67a158eb26b875028ae8b3514", @"/Views/_ViewImports.cshtml")]
     public class Views_Tipos_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<ZeroWaste.Models.Tipo>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "Create", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -66,7 +66,7 @@ using ZeroWaste.Models;
             WriteLiteral("\r\n<h2>Index</h2>\r\n\r\n<p>\r\n    ");
             EndContext();
             BeginContext(115, 37, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c1f45eab6e764f2e9d056ad563f8ce90", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "50a43537cb5260f5816110e55f010c5b1fdde8474697", async() => {
                 BeginContext(138, 10, true);
                 WriteLiteral("Create New");
                 EndContext();
@@ -116,7 +116,7 @@ using ZeroWaste.Models;
             WriteLiteral("\r\n            </td>\r\n            <td>\r\n                ");
             EndContext();
             BeginContext(546, 57, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "179568002e7c4183a203a462f4281c2b", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "50a43537cb5260f5816110e55f010c5b1fdde8477344", async() => {
                 BeginContext(595, 4, true);
                 WriteLiteral("Edit");
                 EndContext();
@@ -151,7 +151,7 @@ using ZeroWaste.Models;
             WriteLiteral(" |\r\n                ");
             EndContext();
             BeginContext(623, 63, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "dea780f62f014280a3e052b48c7571f5", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "50a43537cb5260f5816110e55f010c5b1fdde8479689", async() => {
                 BeginContext(675, 7, true);
                 WriteLiteral("Details");
                 EndContext();
@@ -186,7 +186,7 @@ using ZeroWaste.Models;
             WriteLiteral(" |\r\n                ");
             EndContext();
             BeginContext(706, 61, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "980ef2905df24c429194f920dc3073ac", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "50a43537cb5260f5816110e55f010c5b1fdde84712040", async() => {
                 BeginContext(757, 6, true);
                 WriteLiteral("Delete");
                 EndContext();

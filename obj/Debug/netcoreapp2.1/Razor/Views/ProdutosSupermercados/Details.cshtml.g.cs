@@ -24,7 +24,7 @@ using ZeroWaste.Models;
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b74554cd9ef4e65797bb13c8de3dde99824d68bf", @"/Views/ProdutosSupermercados/Details.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"063a56890a38ccac65026f3adc083f89ed0cdfc7", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4aab3ecfa75852a67a158eb26b875028ae8b3514", @"/Views/_ViewImports.cshtml")]
     public class Views_ProdutosSupermercados_Details : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<ZeroWaste.Models.ProdutosSupermercado>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "Edit", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -144,7 +144,7 @@ using ZeroWaste.Models;
             WriteLiteral("\r\n        </dd>\r\n    </dl>\r\n</div>\r\n<div>\r\n    ");
             EndContext();
             BeginContext(924, 74, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f5391ee7c1b7421f95a5e19d9ac6663c", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b74554cd9ef4e65797bb13c8de3dde99824d68bf7717", async() => {
                 BeginContext(990, 4, true);
                 WriteLiteral("Edit");
                 EndContext();
@@ -179,7 +179,7 @@ using ZeroWaste.Models;
             WriteLiteral(" |\r\n    ");
             EndContext();
             BeginContext(1006, 38, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "d990e4b992c847669b751d97cb1c7599", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b74554cd9ef4e65797bb13c8de3dde99824d68bf10073", async() => {
                 BeginContext(1028, 12, true);
                 WriteLiteral("Back to List");
                 EndContext();

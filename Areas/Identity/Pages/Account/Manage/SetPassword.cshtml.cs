@@ -31,14 +31,14 @@ namespace ZeroWaste.Areas.Identity.Pages.Account.Manage
         public class InputModel
         {
             [Required]
-            [StringLength(100, ErrorMessage = "The {0} must be at least {2} and at max {1} characters long.", MinimumLength = 6)]
+            [StringLength(100, ErrorMessage = "A {0} deve ter entre {2} e {1} caractéres.", MinimumLength = 6)]
             [DataType(DataType.Password)]
-            [Display(Name = "New password")]
+            [Display(Name = "Nova password")]
             public string NewPassword { get; set; }
 
             [DataType(DataType.Password)]
-            [Display(Name = "Confirm new password")]
-            [Compare("NewPassword", ErrorMessage = "The new password and confirmation password do not match.")]
+            [Display(Name = "Confirme a password")]
+            [Compare("Nova password", ErrorMessage = "A nova password e a password de confirmação não são iguais")]
             public string ConfirmPassword { get; set; }
         }
 
@@ -84,7 +84,7 @@ namespace ZeroWaste.Areas.Identity.Pages.Account.Manage
             }
 
             await _signInManager.RefreshSignInAsync(user);
-            StatusMessage = "Your password has been set.";
+            StatusMessage = "A sua password foi guardada.";
 
             return RedirectToPage();
         }

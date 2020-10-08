@@ -79,8 +79,6 @@ C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Ze
 C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\ZeroWaste.genruntimeconfig.cache
 C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\ZeroWaste.csproj.CopyComplete
 C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Pages\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\ZeroWaste.csproj.CoreCompileInputs.cache
-C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs
 C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Views\Tipos\Create.cshtml.g.cs
 C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Views\Tipos\Delete.cshtml.g.cs
 C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Views\Tipos\Details.cshtml.g.cs
@@ -102,7 +100,6 @@ C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Ra
 C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Logout.cshtml.g.cs
 C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\ChangePassword.cshtml.g.cs
 C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\Index.cshtml.g.cs
-C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\PersonalData.cshtml.g.cs
 C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\SetPassword.cshtml.g.cs
 C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\_Layout.cshtml.g.cs
 C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\Manage\_ManageNav.cshtml.g.cs
@@ -113,3 +110,5 @@ C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Ra
 C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\Account\_ViewImports.cshtml.g.cs
 C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\Razor\Areas\Identity\Pages\_ViewImports.cshtml.g.cs
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\ZeroWaste.csproj.CoreCompileInputs.cache
+C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\obj\Debug\netcoreapp2.1\UserSecretsAssemblyInfo.cs

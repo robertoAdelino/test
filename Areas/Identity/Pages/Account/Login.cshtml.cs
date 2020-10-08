@@ -44,7 +44,7 @@ namespace ZeroWaste.Areas.Identity.Pages.Account
             [DataType(DataType.Password)]
             public string Password { get; set; }
 
-            [Display(Name = "Remember me?")]
+            [Display(Name = "Lembrar-me")]
             public bool RememberMe { get; set; }
         }
 
@@ -76,21 +76,24 @@ namespace ZeroWaste.Areas.Identity.Pages.Account
                 var result = await _signInManager.PasswordSignInAsync(Input.Email, Input.Password, Input.RememberMe, lockoutOnFailure: true);
                 if (result.Succeeded)
                 {
-                    _logger.LogInformation("User logged in.");
+                    _logger.LogInformation("Utilizador entrou");
                     return LocalRedirect(returnUrl);
                 }
+
+/*
                 if (result.RequiresTwoFactor)
                 {
                     return RedirectToPage("./LoginWith2fa", new { ReturnUrl = returnUrl, RememberMe = Input.RememberMe });
                 }
                 if (result.IsLockedOut)
                 {
-                    _logger.LogWarning("User account locked out.");
+                    _logger.LogWarning("Conta bloqueada");
                     return RedirectToPage("./Lockout");
-                }
+                } 
+*/
                 else
                 {
-                    ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                    ModelState.AddModelError(string.Empty, "Tentativa de login inválida.");
                     return Page();
                 }
             }

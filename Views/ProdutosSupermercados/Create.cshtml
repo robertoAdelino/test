@@ -22,13 +22,14 @@
                 <input asp-for="Quantidade" class="form-control" />
                 <span asp-validation-for="Quantidade" class="text-danger"></span>
             </div>
-            <div class="form-group">
-                <label asp-for="IDSupermercado" class="control-label"></label>
-                <select asp-for="IDSupermercado" class ="form-control" asp-items="ViewBag.IDSupermercado"></select>
-            </div>
+            @*    <div class="form-group">
+            <label asp-for="IDSupermercado" class="control-label"></label>
+            <select asp-for="IDSupermercado" class ="form-control" asp-items="ViewBag.IDSupermercado"></select>
+        </div>
+                *@
             <div class="form-group">
                 <label asp-for="IDTipo" class="control-label"></label>
-                <select asp-for="IDTipo" class ="form-control" asp-items="ViewBag.IDTipo"></select>
+                <select asp-for="IDTipo" class="form-control" asp-items="ViewBag.IDTipo"></select>
             </div>
             <div class="form-group">
                 <input type="submit" value="Create" class="btn btn-default" />

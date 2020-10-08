@@ -24,7 +24,7 @@ using ZeroWaste.Models;
 #line default
 #line hidden
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"a1b31e105355cf41c6cb46062fe07112b93cc9ce", @"/Views/RefeicoesRestaurantes/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"063a56890a38ccac65026f3adc083f89ed0cdfc7", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"4aab3ecfa75852a67a158eb26b875028ae8b3514", @"/Views/_ViewImports.cshtml")]
     public class Views_RefeicoesRestaurantes_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<IEnumerable<ZeroWaste.Models.RefeicoesRestaurante>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-action", "Create", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -66,7 +66,7 @@ using ZeroWaste.Models;
             WriteLiteral("\r\n<h2>Index</h2>\r\n\r\n<p>\r\n    ");
             EndContext();
             BeginContext(131, 37, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "81abf0ab24ae47a5a71cf0ebfe23fd72", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a1b31e105355cf41c6cb46062fe07112b93cc9ce4842", async() => {
                 BeginContext(154, 10, true);
                 WriteLiteral("Create New");
                 EndContext();
@@ -156,7 +156,7 @@ using ZeroWaste.Models;
             WriteLiteral("\r\n            </td>\r\n            <td>\r\n                ");
             EndContext();
             BeginContext(976, 73, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "5e762c758e3446e386c62b4c38b80c29", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a1b31e105355cf41c6cb46062fe07112b93cc9ce9287", async() => {
                 BeginContext(1041, 4, true);
                 WriteLiteral("Edit");
                 EndContext();
@@ -191,7 +191,7 @@ using ZeroWaste.Models;
             WriteLiteral(" |\r\n                ");
             EndContext();
             BeginContext(1069, 79, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "3dce853187eb4601aabc985a8565e3a3", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a1b31e105355cf41c6cb46062fe07112b93cc9ce11667", async() => {
                 BeginContext(1137, 7, true);
                 WriteLiteral("Details");
                 EndContext();
@@ -226,7 +226,7 @@ using ZeroWaste.Models;
             WriteLiteral(" |\r\n                ");
             EndContext();
             BeginContext(1168, 77, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "10be2b6a6a1e4b01a648b663c5254f96", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a1b31e105355cf41c6cb46062fe07112b93cc9ce14054", async() => {
                 BeginContext(1235, 6, true);
                 WriteLiteral("Delete");
                 EndContext();

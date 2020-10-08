@@ -13,13 +13,13 @@ namespace ZeroWaste.Areas.Identity.Pages.Account.Manage
     using Microsoft.AspNetCore.Mvc;
     using Microsoft.AspNetCore.Mvc.Rendering;
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
-#line 3 "C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\Areas\Identity\Pages\_ViewImports.cshtml"
-using Microsoft.AspNetCore.Identity;
+#line 2 "C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\Areas\Identity\Pages\_ViewImports.cshtml"
+using ZeroWaste.Areas.Identity;
 
 #line default
 #line hidden
-#line 2 "C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\Areas\Identity\Pages\_ViewImports.cshtml"
-using ZeroWaste.Areas.Identity;
+#line 3 "C:\Users\rober\Desktop\PROJETO EI\ZeroWaste\ZeroWaste\Areas\Identity\Pages\_ViewImports.cshtml"
+using Microsoft.AspNetCore.Identity;
 
 #line default
 #line hidden

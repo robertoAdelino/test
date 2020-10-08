@@ -1,7 +1,7 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Profile";
+    ViewData["Title"] = "O seu perfil";
 }
 
 <h4>@ViewData["Title"]</h4>
@@ -35,7 +35,17 @@
                 <input asp-for="Input.PhoneNumber" class="form-control" />
                 <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
             </div>
-            <button type="submit" class="btn btn-default">Save</button>
+            <div class="form-group">
+
+                <select  class="form-control">
+                    <option value="1">familia</option>
+                    <option value="2">voluntario</option>
+                    <option value="3">restaurante</option>
+                </select>
+
+            </div>
+
+                <button type="submit" class="btn btn-default">Save</button>
         </form>
     </div>
 </div>
